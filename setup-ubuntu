@@ -1,0 +1,10 @@
+#!/bin/sh
+sudo apt-get install \
+    biber \
+    latexmk \
+    pandoc \
+    texlive-bibtex-extra \
+    texlive-fonts-extra \
+    texlive-fonts-recommended \
+    texlive-generic-extra \
+    texlive-xetex \
