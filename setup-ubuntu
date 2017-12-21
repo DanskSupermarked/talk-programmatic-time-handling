@@ -8,3 +8,4 @@ sudo apt-get install \
     texlive-fonts-recommended \
     texlive-generic-extra \
     texlive-xetex \
+    inotify-tools \

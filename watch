@@ -1,0 +1,16 @@
+#!/bin/bash
+
+target=$(basename --suffix .md notes/*.md)
+
+# Infer make-target from invocation
+# ./watch => make slides/foo.pdf
+# ./watch slides => make slides/foo.pdf
+# ./watch foo => make foo
+[[ $# -eq 0 ]] || [[ $1 = "slides" ]] && target="slides/$target.pdf"
+
+printf 'Running make %s\n' "$target"
+
+while IFS= read -r
+do
+    make "$target"
+done < <(inotifywait -m notes -e modify)
