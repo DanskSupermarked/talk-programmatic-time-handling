@@ -26,7 +26,7 @@ NOTES := notes
 SCURO := true
 
 # Extra options to pandoc. Note that certain options set here are overridden.
-PANDOC_OPTIONS := --toc
+PANDOC_OPTIONS := 
 
 # pandoc slide level, for slides from notes only (generation from script
 # requires slide level be set to 2).

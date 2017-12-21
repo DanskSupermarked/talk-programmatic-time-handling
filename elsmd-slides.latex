@@ -340,13 +340,6 @@ $if(title)$
 \frame{\titlepage}
 $endif$
 
-$if(toc)$
-\clearpage
-\begin{frame}[allowframebreaks,t,containsverbatim]{Agenda}
-\tableofcontents \end{frame}
-\clearpage
-$endif$
-
 $for(include-before)$
 $include-before$
 
