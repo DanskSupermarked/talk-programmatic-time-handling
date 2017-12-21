@@ -2,7 +2,7 @@
 title: A Sample Set of Slides
 author: Your Name Here
 date: Totally Not the Last Minute
-sansfont: Gill Sans
+sansfont: DejaVu Sans
 slide-numbers: true
 ---
 
