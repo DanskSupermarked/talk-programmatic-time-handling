@@ -30,7 +30,7 @@ PANDOC_OPTIONS :=
 
 # pandoc slide level, for slides from notes only (generation from script
 # requires slide level be set to 2).
-NOTES_SLIDE_LEVEL := 1
+NOTES_SLIDE_LEVEL := 2
 
 ## ---- special external files ----
 
