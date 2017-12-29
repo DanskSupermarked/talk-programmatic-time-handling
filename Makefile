@@ -37,7 +37,7 @@ NOTES_SLIDE_LEVEL := 2
 # Normally these do not need to be changed
 
 # works if overlay_filter python script is local or in PATH
-OVERLAY_FILTER := ./overlay_filter
+OVERLAY_FILTER := overlay_filter
 
 # these work if the two templates are local or in ~/.pandoc/templates
 SLIDES_TMPL := elsmd-slides.latex
