@@ -23,7 +23,6 @@ NOTES := notes
 # Set to anything non-empty to always use the "scuro" dark-on-light scheme
 # on slides. Comment this out to turn this off (you can still turn it on
 # in individual files with "scuro: true" in the YAML metadata)
-SCURO := true
 
 # Extra options to pandoc. Note that certain options set here are overridden.
 PANDOC_OPTIONS := 
